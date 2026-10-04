@@ -1,0 +1,11 @@
+{
+  "domain": "carrera_econergy",
+  "name": "Carrera Econergy",
+  "version": "0.1.0",
+  "documentation": "https://github.com/Xuxu-1986/carrera-econergy-home-assistant",
+  "issue_tracker": "https://github.com/Xuxu-1986/carrera-econergy-home-assistant/issues",
+  "requirements": [],
+  "codeowners": [],
+  "iot_class": "cloud_polling",
+  "config_flow": true
+}

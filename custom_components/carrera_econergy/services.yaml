@@ -1,0 +1,16 @@
+set_programs:
+  name: Set weekly programs
+  description: Replace the 21 weekly program slots for one Carrera Econergy radiator.
+  fields:
+    device_id:
+      name: Econergy device ID
+      description: Internal Econergy device identifier exposed by the climate entity.
+      required: true
+      selector:
+        text:
+    programs:
+      name: Programs
+      description: Complete list of exactly 21 Econergy program slot objects.
+      required: true
+      selector:
+        object:

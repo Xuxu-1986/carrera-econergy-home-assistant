@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Carrera Econergy",
+        "description": "Connect your Econergy account.",
+        "data": {
+          "email": "Email",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid email or password",
+      "cannot_connect": "Unable to connect to Econergy",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "This Econergy home is already configured"
+    }
+  }
+}
